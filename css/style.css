@@ -101,6 +101,7 @@ img {
 /* Style Header Section */
 
 header {
+    position: relative;
     background-image: linear-gradient(to right bottom, rgba(30, 115, 172, 0.7), rgba(142, 57, 153, 0.6)), url(images/0_1.gif);
     background-size: cover;
     background-position: center center;
@@ -497,6 +498,9 @@ nav {
     .top-card-feature {
         margin: 25px auto;
     }
+    .scroll-up {
+        display:none;
+    }
 }
 
 @media screen and (max-width:775px) {
@@ -515,12 +519,6 @@ nav {
 @media (min-width:767px) and (max-width:1000px){
     .is-centered h2 {
         width: 60%;
-    }
-}
-@media (min-width:900px) {
-    header {
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); 
     }
 }
 
