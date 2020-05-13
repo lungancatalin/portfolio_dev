@@ -498,8 +498,8 @@ nav {
     .top-card-feature {
         margin: 25px auto;
     }
-    .scroll-up {
-        display:none;
+    #scroll-up {
+        display:none!important;
     }
 }
 
